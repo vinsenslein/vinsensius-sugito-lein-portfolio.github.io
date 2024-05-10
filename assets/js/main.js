@@ -51,8 +51,6 @@ skillsHeader.forEach((el) => {
 
 /*==================== QUALIFICATION TABS ====================*/
 
-
-
 /*==================== SERVICES MODAL ====================*/
 
 /*==================== PORTFOLIO SWIPER  ====================*/
@@ -73,7 +71,6 @@ let swiper = new Swiper('.portfolio__container', {
 
 
 /*==================== TESTIMONIAL ====================*/
-
 
 /*==================== SCROLL SECTIONS ACTIVE LINK ====================*/
 const sections = document.querySelectorAll('section[id]')
