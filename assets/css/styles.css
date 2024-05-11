@@ -14,7 +14,7 @@
     --first-color: hsl(var(--hue-color), 0%, 0%);
     --first-color-second: hsl(var(--hue-color), 0%, 0%);
     --first-color-alt: hsl(var(--hue-color), 0%, 0%);
-    --first-color-lighter: hsl(var(--hue-color), 0%, 0%);
+    --first-color-lighter: hsl(var(--hue-color), 0%, 40%);
     --title-color: hsl(var(--hue-color), 0%, 0%);
     --text-color: hsl(var(--hue-color), 0%, 0%);
     --text-color-light: hsl(var(--hue-color), 0%, 0%);
@@ -90,16 +90,15 @@ body.dark-theme {
     --first-color: hsl(var(--hue-color), 0%, 100%);
     --first-color-alt: hsl(var(--hue-color), 0%, 100%);
     --first-color-second: hsl(var(--hue-color), 0%, 100%);
-    --first-color-lighter: hsl(var(--hue-color), 0%, 100%);
+    --first-color-lighter: hsl(var(--hue-color), 0%, 40%);
     --text-color-light: hsl(var(--hue-color), 0%, 100%);
     --title-color: hsl(var(--hue-color), 0%, 100%);
     --text-color: hsl(var(--hue-color), 0%, 100%);
-    --input-color: hsl(var(--hue-color), 0%, 100%);
+    --input-color: hsl(var(--hue-color), 0%, 0%);
     --body-color: hsl(var(--hue-color), 0%, 0%);
-    --container-color: hs1(var(--hue-color), 0%, 0%);
-    --scroll-bar-color: hsl(var(--hue-color), 0%, 0%);
-    --scroll-thumb-color: hsl(var(--hue-color), 0%, 0%);
-    --container-color: #fff;
+    --scroll-bar-color: hsl(var(--hue-color), 0%, 100%);
+    --scroll-thumb-color: hsl(var(--hue-color), 0%, 100%);
+    --container-color: #000;
     .footer__title,
     .footer__subtitle,
     .footer__link,
@@ -562,7 +561,7 @@ img {
 }
 
 .skills__bar {
-    background-color: var(--first-color-lighter);
+    background-color: var(--first-color-alt);
 }
 
 .skills__precentage {
@@ -763,7 +762,7 @@ img {
 }
 
 .footer__link:hover {
-    color: var(--first-color-lighter);
+    color: var(--first-color-alt);
 }
 
 .footer__social {
@@ -772,7 +771,7 @@ img {
 }
 
 .footer__social:hover {
-    color: var(--first-color-lighter);
+    color: var(--first-color-alt);
 }
 
 .footer__copy {
