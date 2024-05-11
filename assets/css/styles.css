@@ -13,7 +13,7 @@
     /* HSL color mode */
     --first-color: hsl(var(--hue-color), 0%, 0%);
     --first-color-second: hsl(var(--hue-color), 0%, 0%);
-    --first-color-alt: hsl(var(--hue-color), 0%, 0%);
+    --first-color-alt: hsl(var(--hue-color), 0%, 40%);
     --first-color-lighter: hsl(var(--hue-color), 0%, 40%);
     --title-color: hsl(var(--hue-color), 0%, 0%);
     --text-color: hsl(var(--hue-color), 0%, 0%);
@@ -88,7 +88,7 @@
 body.dark-theme {
     /* HSL color mode */
     --first-color: hsl(var(--hue-color), 0%, 100%);
-    --first-color-alt: hsl(var(--hue-color), 0%, 100%);
+    --first-color-alt: hsl(var(--hue-color), 0%, 40%);
     --first-color-second: hsl(var(--hue-color), 0%, 100%);
     --first-color-lighter: hsl(var(--hue-color), 0%, 40%);
     --text-color-light: hsl(var(--hue-color), 0%, 100%);
@@ -111,6 +111,15 @@ body.dark-theme {
     .button,
     .scrollup__icon {
         color: #000;
+    }
+    .footer__link:hover {
+        color: var(--first-color-lighter);
+    }
+    .footer__social:hover {
+        color: var(--first-color-lighter);
+    }
+    .scrollup:hover {
+        background-color: var(--first-color-lighter);
     }
 }
 
@@ -762,7 +771,7 @@ img {
 }
 
 .footer__link:hover {
-    color: var(--first-color-alt);
+    color: var(--first-color-lighter);
 }
 
 .footer__social {
@@ -771,7 +780,7 @@ img {
 }
 
 .footer__social:hover {
-    color: var(--first-color-alt);
+    color: var(--first-color-lighter);
 }
 
 .footer__copy {
@@ -804,7 +813,7 @@ img {
 }
 
 .scrollup:hover {
-    background-color: var(--first-color-alt);
+    background-color: var(--first-color-lighter);
 }
 
 .scrollup__icon {
